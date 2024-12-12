@@ -1,0 +1,7 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@font-face {
+    font-family: 'roobert';
+    src: url('./assets/font/r3.woff2') format('woff2');
+}
