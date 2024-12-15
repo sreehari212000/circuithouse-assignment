@@ -25,8 +25,8 @@ const Navbar = ({setIsmenuopen, scrollY}) => {
             <div>
                 <OpalLogoSvg />
                 <div className={`mt-10 text-2xl hidden lg:block transition-all ease-in-out duration-300 ${scrollY === 0 ? "block" : "invisible"}`}>
-                    <input type="text" placeholder='Newsletter' className='bg-transparent outline-none border-b border-gray-400 focus:border-black transition-all duration-1000 ease-in-out xl:w-96'/>
-                    <button className='py-3 pr-3 pl-20 ml-4 rounded-3xl bg-gray-500  bg-opacity-10 group hover:bg-gradient-to-l from-blue-600 to-blue-800  hover:bg-blue-900'><VscArrowRight className='group-hover:translate-x-[-20px]'/></button>
+                    <input type="text" placeholder='Newsletter' className='bg-transparent outline-none border-b border-gray-400 focus:border-black transition-all placeholder:font-semibold placeholder:text-gray-600 ease-in-out xl:w-96'/>
+                    <button className='py-3 pr-3 pl-20 ml-4 rounded-3xl bg-gray-500  bg-opacity-10 group hover:bg-gradient-to-l from-blue-600 to-blue-800  hover:bg-blue-900'><VscArrowRight className='group-hover:translate-x-[-20px] transition-all duration-300 ease-in-out'/></button>
                     <p className='text-[11px] italic font-semibold text-gray-500 mt-6'>By signing up, I agree with the data protection policy of Opal.</p>
                 </div>
             </div>
